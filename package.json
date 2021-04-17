@@ -1,0 +1,38 @@
+{
+  "name": "pipcorn",
+  "version": "1.0.1",
+  "description": "Watch YouTube videos in picture-in-picture",
+  "bin": "bundled/bundle.js",
+  "files": [
+    "bundled/bundle.js",
+    "bundled/pip.app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh make.sh",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishpranav/jscorn.git"
+  },
+  "keywords": [
+    "picture",
+    "in",
+    "picture",
+    "youtube"
+  ],
+  "author": "Jonny Burger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishpranav/jscorn/issues"
+  },
+  "homepage": "https://github.com/krishpranav/jscorn#readme",
+  "devDependencies": {
+    "open-pip": "^3.0.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "xns": "^2.0.7",
+    "ytdl-core": "^1.0.6"
+  }
+}
